@@ -1,0 +1,228 @@
+*{
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+}
+body{
+  margin: 0px;
+  /*border: 1px solid black;*/
+}
+
+.navbar {
+  margin-top:0px;
+  display:flex;
+  position: fixed;
+  width:100%;
+  background: white;
+  /*border:1px solid black;*/
+}
+
+.logo{
+  width:20%;
+  margin-left:10%;
+}
+.logo h1{
+  font-size:40px;
+  color: #2F6B1A;
+}
+
+.menu{
+  justify-content: end;
+  align-items:center;
+  display:flex;
+  width:70%;
+  margin-right:10%;
+}
+.menu a{
+  text-decoration: none;
+  color: #2F6B1A;
+  font-size:15px;
+  padding:10px 8px;
+}
+.menu a:hover{
+  color: #E3B23C;
+  border-top: 3px solid #E3B23C;
+}
+#log{
+  background: #2F6B1A;
+  padding: 10px;
+  color: #E3B23C;
+  margin-left:5%;
+  border-radius: 10px;
+}
+#log:hover{
+  border:0;
+  background:#E3B23C;
+  color:#2F6B1A;
+}
+.sec{
+  display:flex;
+  margin-bottom:100px;
+  padding-top: 80px;
+}
+.sec-n{
+  margin-top:0px;
+  display:flex;
+  flex-wrap: wrap;
+  width:979px;
+  margin-bottom:100px;
+  padding-top: 60px;
+  justify-content: center;
+  /*margin-left:15%;*/
+  /*border:1px solid black;*/
+}
+.sec2{
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  width:100%;
+}
+.card-edu{
+  display: inline-block;
+  border: 1px solid black;
+  margin:5%;
+  border-radius:10px;
+  width: 30%;
+}
+.card-jua{
+  display: inline-block;
+  border: 1px solid black;
+  margin:5%;
+  border-radius:10px;
+  width:30%;
+}
+.card-and{
+  display: inline-block;
+border: 1px solid black;
+  margin:5%;
+  border-radius:10px;
+  width: 30%;
+}
+.card-jos{
+  display: inline-block;
+border: 1px solid black;
+  margin:5%;
+  border-radius:10px;
+  width:30%;
+}
+.sec2 img{
+  width:100%;
+  height:auto;
+  border-radius:10px;
+  flex-wrap: wrap;
+}
+.cabeca {
+  width:40%;
+  margin:5%;
+  align-content: center;
+}
+.cabeca h2{
+  margin:0;
+  padding:0;
+  font-size:30px;
+  color:#2F6B1A;
+  /*border:1px solid black;*/
+}
+p{
+  color:#2F6B1A;
+}
+h2{
+  font-size:50px;
+  color:#E3B23C;
+}
+h3{
+  color:#2F6B1A;
+}
+#tit{
+  font-size:80px;
+  color: #E3B23C;
+}
+.cab-img{
+  width:90%;
+  margin:5%;
+}
+.cabn-img{
+  flex:50%;
+  /*width:50%;*/
+  /*margin:5%;*/
+  /*border:1px solid black;*/
+}
+.ocult-edu, .ocult-jua, .ocult-and, .ocult-jos{
+  display: none;
+}
+.card-edu:hover .img-edu{
+  display:none;
+}
+.card-edu:hover .ocult-edu{
+  display:block;
+}
+.card-edu:hover{
+  padding:20px;
+}
+.card-edu:hover h3{
+  color:#E3B23C;
+}
+.card-jua:hover .img-jua{
+  display:none;
+}
+.card-jua:hover .ocult-jua{
+  display:block;
+}
+.card-jua:hover{
+  padding:20px;
+}
+.card-jua:hover h3{
+  color:#E3B23C;
+}
+.card-and:hover .img-and{
+  display:none;
+}
+.card-and:hover .ocult-and{
+  display:block;
+}
+.card-and:hover{
+  padding:20px;
+}
+.card-and:hover h3{
+  color:#E3B23C;
+}
+.card-jos:hover .img-jos{
+  display:none;
+}
+.card-jos:hover .ocult-jos{
+  display:block;
+}
+.card-jos:hover{
+  padding:20px;
+}
+.card-jos:hover h3{
+  color:#E3B23C;
+}
+footer{
+  margin-top:100px;
+  height:300px;
+  border-top:10px solid #E3B23C;
+  text-align: center;
+  background-image:linear-gradient(180deg, #2F6B1A, #255616, #1b4011, #0e2008, black)
+}
+.logope{
+  padding:50px;
+}
+.logope h1{
+  color:white;
+  text-align: center;
+  font-size: 40px;
+}
+.logope p{
+  color: white;
+  text-align: center;
+}
+b{
+  color: white;
+}
+.whats{
+  width:100px;
+  height:100px;
+  position: fixed;
+  bottom:10px;
+  right:10px;
+}

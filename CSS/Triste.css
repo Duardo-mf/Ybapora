@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+}
+body{
+  margin: 0px;
+  border: 1px solid black;
+}
+
+.navbar {
+  margin-top:0px;
+  display:flex;
+  position: fixed;
+  width:100%;
+  background: white;
+  /*border:1px solid black;*/
+}
+
+.logo{
+  width:20%;
+  margin-left:10%;
+}
+.logo h1{
+  font-size:40px;
+  color: #2F6B1A;
+}
+
+.menu{
+  justify-content: end;
+  align-items:center;
+  display:flex;
+  width:70%;
+  margin-right:10%;
+}
+.menu a{
+  text-decoration: none;
+  color: #2F6B1A;
+  font-size:15px;
+  padding:10px 8px;
+}
+.menu a:hover{
+  color: #E3B23C;
+  border-top: 3px solid #E3B23C;
+}
+#log{
+  background: #2F6B1A;
+  padding: 10px;
+  color: #E3B23C;
+  margin-left:5%;
+  border-radius: 10px;
+}
+#log:hover{
+  border:0;
+  background:#E3B23C;
+  color:#2F6B1A;
+}
+.sec-n{
+  margin-top:0px;
+  display:flex;
+  flex-wrap: wrap;
+  width:80%;
+  margin-bottom:100px;
+  padding-top: 60px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-left:10%;
+  /*border:1px solid black;*/
+}
+.sec-n h2{
+  font-size: 40px;
+}
+.cabn-img{
+  flex:50%;
+  /*width:50%;*/
+  /*margin:5%;*/
+  /*border:1px solid black;*/
+}
+footer{
+  margin-top:100px;
+  height:300px;
+  border-top:10px solid #E3B23C;
+  text-align: center;
+  background-image:linear-gradient(180deg, #2F6B1A, #255616, #1b4011, #0e2008, black)
+}
+.logope{
+  padding:50px;
+}
+.logope h1{
+  color:white;
+  text-align: center;
+  font-size: 40px;
+}
+.logope p{
+  color: white;
+  text-align: center;
+}
+b{
+  color: white;
+}
+
+.sec-j{
+  margin:10%;
+}
+.sec-j h2{
+  color:#E3B23C;
+  font-size:30px;
+}
+.sec-j p{
+  color:#2F6B1A;
+  font-size:20px;
+}
+.sec-j ul{
+  color:#2F6B1A;
+  font-size:20px;
+}
+
+.tri{
+  display: flex;
+  height: 200px;
+  margin-bottom:80px;
+  /*border:1px solid black;*/
+}
+.tri1{
+  width:50%;
+  /*height:400px;*/
+  /*border:1px solid black;*/
+}
+.tri2{
+  width:50%;
+  /*height:200px;*/
+  /*border:1px solid black;*/
+}
+.tri3{
+  width:50%;
+  /*height:200px;*/
+  /*border:1px solid black;*/
+}
+
+.whats{
+  width:100px;
+  height:100px;
+  position: fixed;
+  bottom:10px;
+  right:10px;
+}
